@@ -453,6 +453,26 @@ body {
 }
 
 
+/* RODAPÉ */
+
+.rodape {
+    background-color: #29372f;
+    padding: 24px 0;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape p {
+    color: #cfd8d2;
+    font-size: 0.85rem;
+}
+
+
 /* CELULAR */
 
 @media (max-width: 768px) {
@@ -586,6 +606,12 @@ body {
 
 .contato-links {
     padding: 25px;
+}
+
+.rodape-conteudo {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
 }
 
 }
