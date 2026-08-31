@@ -293,7 +293,80 @@ body {
     font-size: 1.05rem;
 }
 
+/* FORMAÇÃO */
 
+.formacao {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+
+.formacao-cabecalho {
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+
+.formacao-cabecalho h2 {
+    color: #34443a;
+    font-size: 2.3rem;
+    line-height: 1.25;
+    margin: 15px 0;
+}
+
+
+.formacao-cabecalho p {
+    color: #59665e;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+
+.formacao-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+
+.formacao-card {
+    background-color: #f7f8f4;
+    border: 1px solid #e1e7e1;
+    border-radius: 14px;
+    padding: 28px;
+    transition: 0.3s;
+}
+
+
+.formacao-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(52, 68, 58, 0.08);
+}
+
+
+.formacao-card span {
+    display: block;
+    color: #6f8b78;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.formacao-card h3 {
+    color: #34443a;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+
+.formacao-card p {
+    color: #68746c;
+    margin-top: 6px;
+    line-height: 1.5;
+}
 
 /* CELULAR */
 
@@ -389,6 +462,25 @@ body {
 
 .atendimento-card {
     padding: 25px;
+}
+
+.formacao {
+    padding: 70px 0;
+}
+
+
+.formacao-cabecalho h2 {
+    font-size: 1.9rem;
+}
+
+
+.formacao-grid {
+    grid-template-columns: 1fr;
+}
+
+
+.formacao-card {
+    padding: 24px;
 }
 
 
