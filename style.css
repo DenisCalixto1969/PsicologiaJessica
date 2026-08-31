@@ -368,6 +368,91 @@ body {
     line-height: 1.5;
 }
 
+/* CONTATO */
+
+.contato {
+    background-color: #34443a;
+    padding: 100px 0;
+}
+
+
+.contato-conteudo {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 80px;
+    align-items: center;
+}
+
+
+.contato .secao-etiqueta {
+    color: #b7c8bb;
+}
+
+
+.contato-texto h2 {
+    color: #ffffff;
+    font-size: 2.3rem;
+    line-height: 1.25;
+    margin: 15px 0 25px;
+}
+
+
+.contato-texto p {
+    color: #dce5df;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 28px;
+}
+
+
+.contato-links {
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 35px;
+}
+
+
+.contato-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e7e1;
+}
+
+
+.contato-item:first-child {
+    padding-top: 0;
+}
+
+
+.contato-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+
+.contato-item span {
+    display: block;
+    color: #6f8b78;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+
+.contato-item a,
+.contato-item p {
+    color: #46534a;
+    font-size: 1.05rem;
+    text-decoration: none;
+}
+
+
+.contato-item a:hover {
+    color: #6f8b78;
+}
+
+
 /* CELULAR */
 
 @media (max-width: 768px) {
@@ -483,6 +568,25 @@ body {
     padding: 24px;
 }
 
+.contato {
+    padding: 70px 0;
+}
+
+
+.contato-conteudo {
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+
+.contato-texto h2 {
+    font-size: 1.9rem;
+}
+
+
+.contato-links {
+    padding: 25px;
+}
 
 }
 
