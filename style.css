@@ -204,6 +204,96 @@ body {
     margin-top: 30px;
 }
 
+/* ATENDIMENTO */
+
+.atendimento {
+    background-color: #f1f4ef;
+    padding: 100px 0;
+}
+
+
+.atendimento-conteudo {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 80px;
+    align-items: center;
+}
+
+
+.secao-etiqueta {
+    color: #6f8b78;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+.atendimento-texto h2 {
+    color: #34443a;
+    font-size: 2.3rem;
+    line-height: 1.25;
+    margin: 15px 0 25px;
+}
+
+
+.atendimento-texto p {
+    color: #59665e;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+.atendimento-texto .botao {
+    margin-top: 12px;
+}
+
+
+/* CARD ATENDIMENTO */
+
+.atendimento-card {
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 35px;
+    box-shadow: 0 10px 35px rgba(52, 68, 58, 0.08);
+}
+
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e7e1;
+}
+
+
+.card-item:first-child {
+    padding-top: 0;
+}
+
+
+.card-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+
+.card-item strong {
+    color: #55705f;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.card-item span {
+    color: #46534a;
+    font-size: 1.05rem;
+}
+
+
 
 /* CELULAR */
 
@@ -275,4 +365,35 @@ body {
 
 .sobre-texto p {
     font-size: 1rem;
+
+.atendimento {
+    padding: 70px 0;
 }
+
+
+.atendimento-conteudo {
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+
+.atendimento-texto h2 {
+    font-size: 1.9rem;
+}
+
+
+.atendimento-texto p {
+    font-size: 1rem;
+}
+
+
+.atendimento-card {
+    padding: 25px;
+}
+
+
+}
+
+
+
+
