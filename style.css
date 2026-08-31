@@ -1,1 +1,196 @@
-@charset "UFT-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f8f4;
+    color: #3f4943;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: min(1120px, 90%);
+    margin: 0 auto;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e7e1;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #55705f;
+    font-size: 1.35rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a {
+    color: #48564d;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #78917f;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    min-height: 82vh;
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+}
+
+
+.inicio-conteudo {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    align-items: center;
+    gap: 70px;
+}
+
+
+.profissao {
+    color: #6f8b78;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.inicio-texto h1 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin: 15px 0;
+    color: #34443a;
+}
+
+.inicio-texto h2 {
+    font-size: 1.45rem;
+    font-weight: normal;
+    line-height: 1.5;
+    max-width: 650px;
+    color: #59665e;
+}
+
+.inicio-botoes {
+    display: flex;
+    gap: 15px;
+    margin-top: 32px;
+}
+
+
+.botao-principal {
+    background-color: #587361;
+    color: white;
+}
+
+.botao-principal:hover {
+    background-color: #405a49;
+}
+
+.botao-secundario {
+    border: 1px solid #587361;
+    color: #587361;
+}
+
+.botao-secundario:hover {
+    background-color: #e9eee9;
+}
+
+
+/* FOTO */
+
+.inicio-foto {
+    display: flex;
+    justify-content: center;
+}
+
+
+.foto-placeholder {
+    width: 380px;
+    height: 480px;
+
+    background-color: #e2e9e2;
+
+    border-radius: 180px 180px 25px 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #687b6d;
+
+    border: 2px dashed #a7b8aa;
+}
+
+/* CELULAR */
+
+@media (max-width: 768px) {
+
+    .cabecalho-conteudo {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+    .menu {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .inicio {
+        padding: 50px 0;
+    }
+
+
+    .inicio-conteudo {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+    }
+
+
+    .inicio-texto h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .inicio-texto h2 {
+        font-size: 1.2rem;
+    }
+
+
+    .inicio-botoes {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .foto-placeholder {
+        width: 280px;
+        height: 360px;
+    }
+
+}
