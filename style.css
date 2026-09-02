@@ -276,14 +276,14 @@ body {
 
 .atendimento {
     background-color: #f1f4ef;
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 
 .atendimento-conteudo {
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 80px;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
     align-items: center;
 }
 
@@ -321,32 +321,33 @@ body {
 /* CARD ATENDIMENTO */
 
 .atendimento-card {
-    background-color: #ffffff;
-    border-radius: 18px;
-    padding: 35px;
-    box-shadow: 0 10px 35px rgba(52, 68, 58, 0.08);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    grid-column: 1 / -1;
 }
-
 
 .card-item {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    padding: 20px 0;
-    border-bottom: 1px solid #e1e7e1;
+    justify-content: center;
+    gap: 6px;
+
+    background-color: #ffffff;
+
+    border-radius: 14px;
+
+    padding: 25px;
+
+    min-height: 110px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 10px 35px rgba(52, 68, 58, 0.08);
+
+    border: 1px solid #e1e7e1;
 }
-
-
-.card-item:first-child {
-    padding-top: 0;
-}
-
-
-.card-item:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
-}
-
 
 .card-item strong {
     color: #55705f;
@@ -361,13 +362,18 @@ body {
     font-size: 1.05rem;
 }
 
+
 /* FORMAÇÃO */
 
 .formacao {
     background-color: #ffffff;
-    padding:100px 0;
+    padding: 70px 0 100px;
 }
 
+.formacao .secao-etiqueta {
+    display: block;
+    margin-bottom: 30px;
+}
 
 .formacao-cabecalho {
     max-width: 700px;
