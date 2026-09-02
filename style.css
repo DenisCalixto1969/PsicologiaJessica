@@ -225,16 +225,15 @@ body {
 
 .sobre {
     background-color: #ffffff;
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 
 .sobre-conteudo {
     display: grid;
-    grid-template-columns: 0.7fr 1.3fr;
-    gap: 80px;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
-
 
 .sobre-detalhe span {
     color: #6f8b78;
@@ -246,7 +245,7 @@ body {
 
 
 .sobre-texto {
-    max-width: 720px;
+    max-width: 100%;
 }
 
 
@@ -580,6 +579,8 @@ body {
     font-size: 2.3rem;
     line-height: 1.25;
     margin: 15px 0;
+    white-space: nowrap;
+
 }
 
 .conteudos-cabecalho p {
