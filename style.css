@@ -462,6 +462,75 @@ body {
     object-fit: contain;
 }
 
+/* PERGUNTAS FREQUENTES */
+
+.perguntas {
+    background-color: #f1f4ef;
+    padding: 100px 0;
+}
+
+.perguntas-cabecalho {
+    margin-bottom: 40px;
+}
+
+.perguntas-cabecalho h2 {
+    color: #34443a;
+    font-size: 2.3rem;
+    line-height: 1.25;
+    margin: 15px 0;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-item {
+    background-color: #ffffff;
+    border: 1px solid #e1e7e1;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.faq-pergunta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: none;
+    border: none;
+
+    padding: 25px 30px;
+
+    color: #34443a;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    text-align: left;
+    cursor: pointer;
+}
+
+.faq-icone {
+    color: #6f8b78;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.faq-resposta {
+    display: none;
+    padding: 0 30px 25px;
+}
+
+.faq-resposta p {
+    color: #59665e;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
 /* CONTATO */
 
 .contato {
