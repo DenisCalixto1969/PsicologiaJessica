@@ -965,6 +965,97 @@ body {
     }
 
 }
+/* AJUSTES PARA CELULARES */
+@media (max-width: 768px) {
+
+    /* Evita que os elementos ultrapassem seus contêineres */
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Atendimento */
+    .atendimento-conteudo {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 30px;
+    }
+
+    .atendimento-card {
+        grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+        min-width: 0;
+    }
+
+    .card-item {
+        min-width: 0;
+        overflow-wrap: break-word;
+    }
+
+    /* Formação */
+    .formacao-grid {
+        grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+        min-width: 0;
+    }
+
+    /* Conteúdos e vídeos */
+    .conteudos-grid {
+        grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+        min-width: 0;
+    }
+
+    .conteudo-video {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .conteudo-video video {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Perguntas frequentes */
+    .faq,
+    .faq-item,
+    .faq-pergunta,
+    .faq-resposta {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .faq-pergunta {
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .faq-resposta p {
+        overflow-wrap: break-word;
+    }
+
+    /* Imagens */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 
 
 
