@@ -1056,6 +1056,62 @@ body {
     }
 }
 
+/* CORREÇÃO DE LARGURA NO CELULAR */
+@media (max-width: 768px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: clip;
+    }
+
+    .conteudos,
+    .conteudos .container,
+    .conteudos-cabecalho,
+    .conteudos-grid,
+    .instagram-destaque,
+    .instagram-card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .conteudos-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .conteudos-cabecalho h2 {
+        max-width: 100%;
+        overflow-wrap: anywhere;
+    }
+
+    .conteudo-video,
+    .conteudo-video video {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .instagram-card {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .conteudo-imagem,
+    .conteudo-imagem img {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .conteudo-imagem img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
 
 
 
