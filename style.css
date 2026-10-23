@@ -654,8 +654,6 @@ body {
     font-size: 2.3rem;
     line-height: 1.25;
     margin: 15px 0;
-    white-space: nowrap;
-
 }
 
 .conteudos-cabecalho p {
@@ -913,11 +911,6 @@ body {
     }
 
 
-    .conteudos-cabecalho h2 {
-        font-size: 1.9rem;
-    }
-
-
     .conteudos-grid {
         grid-template-columns: 1fr;
     }
@@ -1081,10 +1074,6 @@ body {
         grid-template-columns: minmax(0, 1fr);
     }
 
-    .conteudos-cabecalho h2 {
-        max-width: 100%;
-        overflow-wrap: anywhere;
-    }
 
     .conteudo-video,
     .conteudo-video video {
